@@ -15,8 +15,6 @@
 
 ---
 
-## [🧭 Indoor AR Navigation System](https://github.com/psy1218/HYUNDAI_AUTOEVER_BOOTCAMP_Machine_Vision_Projectz/tree/main/AR_navigation)
-
 ## 🏗️ System Architecture
 ### AR 네비게이션 
 ![architecture](./AR_navigation/Architecture_Ko.png)
@@ -35,6 +33,10 @@
 [![전체 시연 영상 1](./smart_factory/tear.png)](./smart_factory/tear컨베이어.mp4)
 
 ---
+
+
+## [🧭 Indoor AR Navigation System](https://github.com/psy1218/HYUNDAI_AUTOEVER_BOOTCAMP_Machine_Vision_Projectz/tree/main/AR_navigation)
+
 
 ### 프로젝트 개요
 실내 환경에서는 GPS 기반 길안내가 어렵기 때문에,  
