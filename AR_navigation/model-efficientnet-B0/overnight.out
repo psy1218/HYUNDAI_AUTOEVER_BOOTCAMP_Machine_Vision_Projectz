@@ -1,0 +1,622 @@
+nohup: ignoring input
+===== EXP1 START =====
+Using device: cuda
+Num classes : 28
+Train images: 2820
+Val images  : 695
+Test images : 432
+[Epoch 01/20] Train Loss: 1.8169 | Train Acc: 0.6131 | Val Loss: 0.4630 | Val Acc: 0.8993 | LR: 0.000100 | Time: 111.67s
+-> Best model saved
+[Epoch 02/20] Train Loss: 0.4231 | Train Acc: 0.9110 | Val Loss: 0.1395 | Val Acc: 0.9583 | LR: 0.000100 | Time: 102.62s
+-> Best model saved
+[Epoch 03/20] Train Loss: 0.1696 | Train Acc: 0.9681 | Val Loss: 0.0775 | Val Acc: 0.9827 | LR: 0.000100 | Time: 129.87s
+-> Best model saved
+[Epoch 04/20] Train Loss: 0.0954 | Train Acc: 0.9819 | Val Loss: 0.0546 | Val Acc: 0.9885 | LR: 0.000100 | Time: 136.67s
+-> Best model saved
+[Epoch 05/20] Train Loss: 0.0596 | Train Acc: 0.9908 | Val Loss: 0.0505 | Val Acc: 0.9885 | LR: 0.000100 | Time: 98.20s
+-> Best model saved
+[Epoch 06/20] Train Loss: 0.0426 | Train Acc: 0.9922 | Val Loss: 0.0486 | Val Acc: 0.9885 | LR: 0.000100 | Time: 97.29s
+-> Best model saved
+[Epoch 07/20] Train Loss: 0.0332 | Train Acc: 0.9943 | Val Loss: 0.0427 | Val Acc: 0.9871 | LR: 0.000100 | Time: 97.19s
+-> No improvement (1/5)
+[Epoch 08/20] Train Loss: 0.0368 | Train Acc: 0.9901 | Val Loss: 0.0442 | Val Acc: 0.9885 | LR: 0.000100 | Time: 102.97s
+-> Best model saved
+[Epoch 09/20] Train Loss: 0.0210 | Train Acc: 0.9975 | Val Loss: 0.0410 | Val Acc: 0.9885 | LR: 0.000100 | Time: 100.77s
+-> Best model saved
+[Epoch 10/20] Train Loss: 0.0230 | Train Acc: 0.9950 | Val Loss: 0.0446 | Val Acc: 0.9914 | LR: 0.000100 | Time: 98.47s
+-> Best model saved
+[Epoch 11/20] Train Loss: 0.0283 | Train Acc: 0.9929 | Val Loss: 0.0387 | Val Acc: 0.9914 | LR: 0.000100 | Time: 102.66s
+-> Best model saved
+[Epoch 12/20] Train Loss: 0.0190 | Train Acc: 0.9968 | Val Loss: 0.0409 | Val Acc: 0.9914 | LR: 0.000100 | Time: 99.96s
+-> No improvement (1/5)
+[Epoch 13/20] Train Loss: 0.0191 | Train Acc: 0.9950 | Val Loss: 0.0421 | Val Acc: 0.9914 | LR: 0.000100 | Time: 99.04s
+-> No improvement (2/5)
+[Epoch 14/20] Train Loss: 0.0129 | Train Acc: 0.9972 | Val Loss: 0.0372 | Val Acc: 0.9914 | LR: 0.000100 | Time: 98.58s
+-> Best model saved
+[Epoch 15/20] Train Loss: 0.0069 | Train Acc: 0.9996 | Val Loss: 0.0318 | Val Acc: 0.9914 | LR: 0.000100 | Time: 98.13s
+-> Best model saved
+[Epoch 16/20] Train Loss: 0.0143 | Train Acc: 0.9972 | Val Loss: 0.0346 | Val Acc: 0.9914 | LR: 0.000100 | Time: 101.20s
+-> No improvement (1/5)
+[Epoch 17/20] Train Loss: 0.0125 | Train Acc: 0.9965 | Val Loss: 0.0420 | Val Acc: 0.9885 | LR: 0.000100 | Time: 102.52s
+-> No improvement (2/5)
+[Epoch 18/20] Train Loss: 0.0082 | Train Acc: 0.9989 | Val Loss: 0.0381 | Val Acc: 0.9928 | LR: 0.000050 | Time: 101.40s
+-> Best model saved
+[Epoch 19/20] Train Loss: 0.0064 | Train Acc: 0.9986 | Val Loss: 0.0412 | Val Acc: 0.9928 | LR: 0.000050 | Time: 97.61s
+-> No improvement (1/5)
+[Epoch 20/20] Train Loss: 0.0048 | Train Acc: 0.9989 | Val Loss: 0.0396 | Val Acc: 0.9928 | LR: 0.000050 | Time: 98.60s
+-> No improvement (2/5)
+
+===== TEST RESULT =====
+Test Loss              : 0.9374
+Test Accuracy          : 0.8495
+Precision (macro)      : 0.8407
+Recall (macro)         : 0.8426
+F1-score (macro)       : 0.8255
+Precision (weighted)   : 0.8568
+Recall (weighted)      : 0.8495
+F1-score (weighted)    : 0.8407
+Zone Accuracy          : 0.8704
+Direction Accuracy     : 0.9560
+Dir Acc | Zone Correct : 0.9761
+
+===== CLASSIFICATION REPORT =====
+              precision    recall  f1-score   support
+
+         1_E       0.80      0.44      0.57         9
+         1_N       1.00      0.42      0.59        12
+         1_S       0.72      0.87      0.79        15
+         1_W       0.00      0.00      0.00        15
+         2_E       0.90      0.97      0.93        29
+         2_N       0.82      0.95      0.88        19
+         2_S       0.91      0.80      0.85        25
+         2_W       0.83      0.74      0.78        27
+         3_E       0.67      1.00      0.80        12
+         3_N       0.71      1.00      0.83        12
+         3_S       0.92      1.00      0.96        12
+         3_W       0.29      0.78      0.42         9
+         4_E       1.00      0.85      0.92        20
+         4_N       1.00      1.00      1.00        17
+         4_S       1.00      0.93      0.97        15
+         4_W       0.71      0.83      0.77        12
+         5_E       1.00      1.00      1.00        16
+         5_N       1.00      0.62      0.77        16
+         5_S       1.00      1.00      1.00        15
+         5_W       1.00      0.92      0.96        13
+         6_E       0.90      0.75      0.82        12
+         6_N       0.88      1.00      0.93         7
+         6_S       1.00      0.93      0.96        14
+         6_W       0.73      0.92      0.81        12
+         7_E       0.89      1.00      0.94        17
+         7_N       1.00      1.00      1.00        17
+         7_S       0.85      1.00      0.92        17
+         7_W       1.00      0.88      0.93        16
+
+    accuracy                           0.85       432
+   macro avg       0.84      0.84      0.83       432
+weighted avg       0.86      0.85      0.84       432
+
+
+===== CONFUSION MATRIX =====
+[[ 4  0  0  0  2  0  0  0  1  1  0  1  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  5  0  0  0  3  0  1  0  3  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0 13  0  0  0  2  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  1  0  0 12  0  0  0  2  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0 28  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0 18  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  5  0  0  0 20  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  2  1  0  0 20  0  0  0  2  0  0  0  2  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0 12  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0 12  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0 12  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  2  0  0  0  7  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  3  0  0  0 17  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0 17  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  1  0  0  0 14  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  2  0  0  0 10  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 16  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 1  0  0  0  0  0  0  1  1  0  0  0  0  0  0  0  0 10  0  0  0  1  0  0
+   0  0  2  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 15  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 12  0  0  0  0
+   0  0  1  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  9  0  0  3
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  7  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 13  1
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  0  0 11
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+  17  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0 17  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0 17  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   2  0  0 14]]
+===== EXP1 END =====
+===== EXP2 START =====
+Using device: cuda
+Num classes : 28
+Train images: 2820
+Val images  : 695
+Test images : 432
+[Epoch 01/20] Train Loss: 1.4297 | Train Acc: 0.6337 | Val Loss: 0.2187 | Val Acc: 0.9266 | LR: 0.000100 | Time: 101.41s
+-> Best model saved
+[Epoch 02/20] Train Loss: 0.2094 | Train Acc: 0.9167 | Val Loss: 0.0652 | Val Acc: 0.9626 | LR: 0.000100 | Time: 99.86s
+-> Best model saved
+[Epoch 03/20] Train Loss: 0.0786 | Train Acc: 0.9596 | Val Loss: 0.0447 | Val Acc: 0.9755 | LR: 0.000100 | Time: 100.74s
+-> Best model saved
+[Epoch 04/20] Train Loss: 0.0457 | Train Acc: 0.9752 | Val Loss: 0.0346 | Val Acc: 0.9856 | LR: 0.000100 | Time: 98.69s
+-> Best model saved
+[Epoch 05/20] Train Loss: 0.0297 | Train Acc: 0.9876 | Val Loss: 0.0415 | Val Acc: 0.9842 | LR: 0.000100 | Time: 97.03s
+-> No improvement (1/5)
+[Epoch 06/20] Train Loss: 0.0191 | Train Acc: 0.9908 | Val Loss: 0.0327 | Val Acc: 0.9871 | LR: 0.000100 | Time: 94.89s
+-> Best model saved
+[Epoch 07/20] Train Loss: 0.0178 | Train Acc: 0.9918 | Val Loss: 0.0331 | Val Acc: 0.9885 | LR: 0.000100 | Time: 96.32s
+-> Best model saved
+[Epoch 08/20] Train Loss: 0.0174 | Train Acc: 0.9894 | Val Loss: 0.0292 | Val Acc: 0.9856 | LR: 0.000100 | Time: 98.08s
+-> No improvement (1/5)
+[Epoch 09/20] Train Loss: 0.0088 | Train Acc: 0.9972 | Val Loss: 0.0299 | Val Acc: 0.9885 | LR: 0.000100 | Time: 98.74s
+-> Best model saved
+[Epoch 10/20] Train Loss: 0.0106 | Train Acc: 0.9936 | Val Loss: 0.0314 | Val Acc: 0.9899 | LR: 0.000100 | Time: 95.18s
+-> Best model saved
+[Epoch 11/20] Train Loss: 0.0110 | Train Acc: 0.9940 | Val Loss: 0.0327 | Val Acc: 0.9885 | LR: 0.000050 | Time: 100.43s
+-> No improvement (1/5)
+[Epoch 12/20] Train Loss: 0.0081 | Train Acc: 0.9954 | Val Loss: 0.0300 | Val Acc: 0.9899 | LR: 0.000050 | Time: 98.47s
+-> Best model saved
+[Epoch 13/20] Train Loss: 0.0069 | Train Acc: 0.9961 | Val Loss: 0.0304 | Val Acc: 0.9899 | LR: 0.000050 | Time: 100.89s
+-> No improvement (1/5)
+[Epoch 14/20] Train Loss: 0.0045 | Train Acc: 0.9982 | Val Loss: 0.0298 | Val Acc: 0.9899 | LR: 0.000025 | Time: 98.18s
+-> Best model saved
+[Epoch 15/20] Train Loss: 0.0033 | Train Acc: 0.9979 | Val Loss: 0.0261 | Val Acc: 0.9914 | LR: 0.000025 | Time: 97.82s
+-> Best model saved
+[Epoch 16/20] Train Loss: 0.0031 | Train Acc: 0.9986 | Val Loss: 0.0277 | Val Acc: 0.9914 | LR: 0.000025 | Time: 96.81s
+-> No improvement (1/5)
+[Epoch 17/20] Train Loss: 0.0029 | Train Acc: 0.9989 | Val Loss: 0.0241 | Val Acc: 0.9928 | LR: 0.000025 | Time: 99.04s
+-> Best model saved
+[Epoch 18/20] Train Loss: 0.0025 | Train Acc: 0.9993 | Val Loss: 0.0239 | Val Acc: 0.9914 | LR: 0.000025 | Time: 98.78s
+-> No improvement (1/5)
+[Epoch 19/20] Train Loss: 0.0023 | Train Acc: 0.9993 | Val Loss: 0.0254 | Val Acc: 0.9914 | LR: 0.000025 | Time: 99.34s
+-> No improvement (2/5)
+[Epoch 20/20] Train Loss: 0.0019 | Train Acc: 0.9989 | Val Loss: 0.0272 | Val Acc: 0.9914 | LR: 0.000025 | Time: 98.81s
+-> No improvement (3/5)
+
+===== TEST RESULT =====
+Test Loss              : 0.5326
+Test Accuracy          : 0.8519
+Precision (macro)      : 0.8625
+Recall (macro)         : 0.8535
+F1-score (macro)       : 0.8439
+Precision (weighted)   : 0.8752
+Recall (weighted)      : 0.8519
+F1-score (weighted)    : 0.8513
+Zone Accuracy          : 0.8727
+Direction Accuracy     : 0.9468
+Dir Acc | Zone Correct : 0.9761
+
+===== CLASSIFICATION REPORT =====
+              precision    recall  f1-score   support
+
+         1_E       0.71      0.56      0.62         9
+         1_N       0.88      0.58      0.70        12
+         1_S       0.65      0.87      0.74        15
+         1_W       0.40      0.13      0.20        15
+         2_E       0.87      0.90      0.88        29
+         2_N       0.90      0.95      0.92        19
+         2_S       1.00      0.72      0.84        25
+         2_W       0.77      0.74      0.75        27
+         3_E       0.80      1.00      0.89        12
+         3_N       0.63      1.00      0.77        12
+         3_S       0.92      1.00      0.96        12
+         3_W       0.28      0.78      0.41         9
+         4_E       1.00      0.80      0.89        20
+         4_N       1.00      1.00      1.00        17
+         4_S       1.00      0.93      0.97        15
+         4_W       0.92      0.92      0.92        12
+         5_E       1.00      1.00      1.00        16
+         5_N       1.00      0.62      0.77        16
+         5_S       0.94      1.00      0.97        15
+         5_W       1.00      0.92      0.96        13
+         6_E       0.91      0.83      0.87        12
+         6_N       1.00      1.00      1.00         7
+         6_S       1.00      1.00      1.00        14
+         6_W       0.83      0.83      0.83        12
+         7_E       0.85      1.00      0.92        17
+         7_N       1.00      1.00      1.00        17
+         7_S       0.89      1.00      0.94        17
+         7_W       1.00      0.81      0.90        16
+
+    accuracy                           0.85       432
+   macro avg       0.86      0.85      0.84       432
+weighted avg       0.88      0.85      0.85       432
+
+
+===== CONFUSION MATRIX =====
+[[ 5  0  0  0  2  0  0  0  0  1  0  1  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  7  0  0  0  1  0  1  0  3  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0 13  0  0  0  0  0  0  2  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  2  0  0  0  0  0  0  0 13  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  1  0  0 26  1  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0 18  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  7  0  0  0 18  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  3  1  0  0 20  0  0  0  2  0  0  0  1  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0 12  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0 12  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0 12  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  2  0  0  0  7  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 1  0  0  0  0  0  0  0  3  0  0  0 16  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0 17  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  1  0  0  0 14  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  1  0  0  0 11  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 16  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 1  0  0  0  0  0  0  3  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0
+   0  0  2  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 15  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1 12  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 10  0  0  2
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  7  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 14  0
+   0  0  0  0]
+ [ 0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  0  0 10
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+  17  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0 17  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0 17  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   3  0  0 13]]
+===== EXP2 END =====
+===== EXP3 START =====
+Using device: cuda
+Num classes : 28
+Train images: 2820
+Val images  : 695
+Test images : 432
+[Epoch 01/20] Train Loss: 1.8004 | Train Acc: 0.6220 | Val Loss: 0.4552 | Val Acc: 0.9094 | LR: 0.000100 | Time: 101.34s
+-> Best model saved
+[Epoch 02/20] Train Loss: 0.4150 | Train Acc: 0.9117 | Val Loss: 0.1327 | Val Acc: 0.9482 | LR: 0.000100 | Time: 101.66s
+-> Best model saved
+[Epoch 03/20] Train Loss: 0.1698 | Train Acc: 0.9660 | Val Loss: 0.0612 | Val Acc: 0.9842 | LR: 0.000100 | Time: 102.13s
+-> Best model saved
+[Epoch 04/20] Train Loss: 0.0917 | Train Acc: 0.9837 | Val Loss: 0.0523 | Val Acc: 0.9871 | LR: 0.000100 | Time: 102.43s
+-> Best model saved
+[Epoch 05/20] Train Loss: 0.0563 | Train Acc: 0.9926 | Val Loss: 0.0723 | Val Acc: 0.9856 | LR: 0.000100 | Time: 101.74s
+-> No improvement (1/5)
+[Epoch 06/20] Train Loss: 0.0406 | Train Acc: 0.9933 | Val Loss: 0.0395 | Val Acc: 0.9914 | LR: 0.000100 | Time: 99.09s
+-> Best model saved
+[Epoch 07/20] Train Loss: 0.0379 | Train Acc: 0.9918 | Val Loss: 0.0372 | Val Acc: 0.9914 | LR: 0.000100 | Time: 100.51s
+-> Best model saved
+[Epoch 08/20] Train Loss: 0.0265 | Train Acc: 0.9943 | Val Loss: 0.0312 | Val Acc: 0.9914 | LR: 0.000100 | Time: 99.42s
+-> Best model saved
+[Epoch 09/20] Train Loss: 0.0217 | Train Acc: 0.9954 | Val Loss: 0.0305 | Val Acc: 0.9914 | LR: 0.000100 | Time: 99.85s
+-> Best model saved
+[Epoch 10/20] Train Loss: 0.0236 | Train Acc: 0.9954 | Val Loss: 0.0491 | Val Acc: 0.9885 | LR: 0.000100 | Time: 98.23s
+-> No improvement (1/5)
+[Epoch 11/20] Train Loss: 0.0312 | Train Acc: 0.9947 | Val Loss: 0.0398 | Val Acc: 0.9914 | LR: 0.000100 | Time: 102.22s
+-> No improvement (2/5)
+[Epoch 12/20] Train Loss: 0.0174 | Train Acc: 0.9975 | Val Loss: 0.0362 | Val Acc: 0.9885 | LR: 0.000050 | Time: 99.23s
+-> No improvement (3/5)
+[Epoch 13/20] Train Loss: 0.0132 | Train Acc: 0.9986 | Val Loss: 0.0299 | Val Acc: 0.9928 | LR: 0.000050 | Time: 99.43s
+-> Best model saved
+[Epoch 14/20] Train Loss: 0.0058 | Train Acc: 0.9996 | Val Loss: 0.0312 | Val Acc: 0.9957 | LR: 0.000050 | Time: 98.93s
+-> Best model saved
+[Epoch 15/20] Train Loss: 0.0068 | Train Acc: 0.9989 | Val Loss: 0.0300 | Val Acc: 0.9928 | LR: 0.000050 | Time: 101.38s
+-> No improvement (1/5)
+[Epoch 16/20] Train Loss: 0.0077 | Train Acc: 0.9982 | Val Loss: 0.0311 | Val Acc: 0.9942 | LR: 0.000025 | Time: 101.55s
+-> No improvement (2/5)
+[Epoch 17/20] Train Loss: 0.0057 | Train Acc: 0.9993 | Val Loss: 0.0309 | Val Acc: 0.9928 | LR: 0.000025 | Time: 100.24s
+-> No improvement (3/5)
+[Epoch 18/20] Train Loss: 0.0046 | Train Acc: 0.9996 | Val Loss: 0.0276 | Val Acc: 0.9957 | LR: 0.000025 | Time: 99.86s
+-> Best model saved
+[Epoch 19/20] Train Loss: 0.0039 | Train Acc: 1.0000 | Val Loss: 0.0297 | Val Acc: 0.9957 | LR: 0.000025 | Time: 98.53s
+-> No improvement (1/5)
+[Epoch 20/20] Train Loss: 0.0034 | Train Acc: 1.0000 | Val Loss: 0.0311 | Val Acc: 0.9942 | LR: 0.000025 | Time: 99.69s
+-> No improvement (2/5)
+
+===== TEST RESULT =====
+Test Loss              : 0.8840
+Test Accuracy          : 0.8657
+Precision (macro)      : 0.8554
+Recall (macro)         : 0.8644
+F1-score (macro)       : 0.8497
+Precision (weighted)   : 0.8624
+Recall (weighted)      : 0.8657
+F1-score (weighted)    : 0.8557
+Zone Accuracy          : 0.8889
+Direction Accuracy     : 0.9583
+Dir Acc | Zone Correct : 0.9740
+
+===== CLASSIFICATION REPORT =====
+              precision    recall  f1-score   support
+
+         1_E       1.00      0.67      0.80         9
+         1_N       1.00      0.75      0.86        12
+         1_S       0.67      0.80      0.73        15
+         1_W       0.00      0.00      0.00        15
+         2_E       0.88      0.97      0.92        29
+         2_N       0.86      1.00      0.93        19
+         2_S       0.90      0.76      0.83        25
+         2_W       0.85      0.81      0.83        27
+         3_E       0.80      1.00      0.89        12
+         3_N       0.86      1.00      0.92        12
+         3_S       0.92      0.92      0.92        12
+         3_W       0.35      0.78      0.48         9
+         4_E       1.00      0.85      0.92        20
+         4_N       1.00      0.94      0.97        17
+         4_S       0.93      0.93      0.93        15
+         4_W       0.71      1.00      0.83        12
+         5_E       1.00      1.00      1.00        16
+         5_N       1.00      0.62      0.77        16
+         5_S       1.00      1.00      1.00        15
+         5_W       0.92      0.92      0.92        13
+         6_E       0.90      0.75      0.82        12
+         6_N       1.00      1.00      1.00         7
+         6_S       1.00      1.00      1.00        14
+         6_W       0.79      0.92      0.85        12
+         7_E       0.85      1.00      0.92        17
+         7_N       1.00      1.00      1.00        17
+         7_S       0.77      1.00      0.87        17
+         7_W       1.00      0.81      0.90        16
+
+    accuracy                           0.87       432
+   macro avg       0.86      0.86      0.85       432
+weighted avg       0.86      0.87      0.86       432
+
+
+===== CONFUSION MATRIX =====
+[[ 6  0  0  0  3  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  9  0  0  0  2  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0 12  0  0  0  2  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0 12  0  0  0  3  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0 28  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0 19  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  6  0  0  0 19  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  1  1  0  0 22  0  0  0  1  0  0  0  2  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0 12  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0 12  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0 11  0  0  0  1  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  2  0  0  0  7  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  3  0  0  0 17  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  1  0  0  0 16  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  1  0  0  0 14  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 12  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 16  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0 10  0  1  0  0  0  0
+   0  0  4  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 15  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 12  0  0  0  0
+   0  0  1  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  9  0  0  3
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  7  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 14  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  0  0 11
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+  17  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0 17  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0 17  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   3  0  0 13]]
+===== EXP3 END =====
+===== EXP4 START =====
+Using device: cuda
+Num classes : 28
+Train images: 2820
+Val images  : 695
+Test images : 432
+[Epoch 01/20] Train Loss: 1.8076 | Train Acc: 0.6230 | Val Loss: 0.4631 | Val Acc: 0.9065 | LR: 0.000100 | Time: 102.16s
+-> Best model saved
+[Epoch 02/20] Train Loss: 0.4138 | Train Acc: 0.9110 | Val Loss: 0.1418 | Val Acc: 0.9511 | LR: 0.000100 | Time: 100.21s
+-> Best model saved
+[Epoch 03/20] Train Loss: 0.1662 | Train Acc: 0.9709 | Val Loss: 0.0788 | Val Acc: 0.9813 | LR: 0.000100 | Time: 97.14s
+-> Best model saved
+[Epoch 04/20] Train Loss: 0.0897 | Train Acc: 0.9844 | Val Loss: 0.0639 | Val Acc: 0.9856 | LR: 0.000100 | Time: 98.31s
+-> Best model saved
+[Epoch 05/20] Train Loss: 0.0548 | Train Acc: 0.9929 | Val Loss: 0.0549 | Val Acc: 0.9885 | LR: 0.000100 | Time: 97.95s
+-> Best model saved
+[Epoch 06/20] Train Loss: 0.0390 | Train Acc: 0.9933 | Val Loss: 0.0542 | Val Acc: 0.9885 | LR: 0.000100 | Time: 95.56s
+-> Best model saved
+[Epoch 07/20] Train Loss: 0.0312 | Train Acc: 0.9947 | Val Loss: 0.0499 | Val Acc: 0.9856 | LR: 0.000100 | Time: 94.69s
+-> No improvement (1/5)
+[Epoch 08/20] Train Loss: 0.0276 | Train Acc: 0.9950 | Val Loss: 0.0379 | Val Acc: 0.9914 | LR: 0.000100 | Time: 96.70s
+-> Best model saved
+[Epoch 09/20] Train Loss: 0.0153 | Train Acc: 0.9986 | Val Loss: 0.0443 | Val Acc: 0.9914 | LR: 0.000100 | Time: 96.82s
+-> No improvement (1/5)
+[Epoch 10/20] Train Loss: 0.0313 | Train Acc: 0.9933 | Val Loss: 0.0532 | Val Acc: 0.9856 | LR: 0.000100 | Time: 95.40s
+-> No improvement (2/5)
+[Epoch 11/20] Train Loss: 0.0286 | Train Acc: 0.9943 | Val Loss: 0.0418 | Val Acc: 0.9885 | LR: 0.000050 | Time: 95.76s
+-> No improvement (3/5)
+[Epoch 12/20] Train Loss: 0.0185 | Train Acc: 0.9961 | Val Loss: 0.0343 | Val Acc: 0.9914 | LR: 0.000050 | Time: 96.99s
+-> Best model saved
+[Epoch 13/20] Train Loss: 0.0129 | Train Acc: 0.9972 | Val Loss: 0.0354 | Val Acc: 0.9914 | LR: 0.000050 | Time: 99.02s
+-> No improvement (1/5)
+[Epoch 14/20] Train Loss: 0.0082 | Train Acc: 0.9982 | Val Loss: 0.0337 | Val Acc: 0.9914 | LR: 0.000050 | Time: 97.63s
+-> Best model saved
+[Epoch 15/20] Train Loss: 0.0059 | Train Acc: 1.0000 | Val Loss: 0.0341 | Val Acc: 0.9885 | LR: 0.000050 | Time: 99.56s
+-> No improvement (1/5)
+[Epoch 16/20] Train Loss: 0.0068 | Train Acc: 0.9989 | Val Loss: 0.0364 | Val Acc: 0.9899 | LR: 0.000050 | Time: 101.34s
+-> No improvement (2/5)
+[Epoch 17/20] Train Loss: 0.0063 | Train Acc: 0.9989 | Val Loss: 0.0302 | Val Acc: 0.9942 | LR: 0.000050 | Time: 101.18s
+-> Best model saved
+[Epoch 18/20] Train Loss: 0.0063 | Train Acc: 0.9993 | Val Loss: 0.0311 | Val Acc: 0.9899 | LR: 0.000050 | Time: 101.15s
+-> No improvement (1/5)
+[Epoch 19/20] Train Loss: 0.0042 | Train Acc: 0.9996 | Val Loss: 0.0285 | Val Acc: 0.9942 | LR: 0.000050 | Time: 100.56s
+-> Best model saved
+[Epoch 20/20] Train Loss: 0.0049 | Train Acc: 0.9993 | Val Loss: 0.0298 | Val Acc: 0.9942 | LR: 0.000050 | Time: 97.29s
+-> No improvement (1/5)
+
+===== TEST RESULT =====
+Test Loss              : 1.0892
+Test Accuracy          : 0.8218
+Precision (macro)      : 0.8372
+Recall (macro)         : 0.8207
+F1-score (macro)       : 0.8070
+Precision (weighted)   : 0.8586
+Recall (weighted)      : 0.8218
+F1-score (weighted)    : 0.8208
+Zone Accuracy          : 0.8356
+Direction Accuracy     : 0.9514
+Dir Acc | Zone Correct : 0.9834
+
+===== CLASSIFICATION REPORT =====
+              precision    recall  f1-score   support
+
+         1_E       0.36      0.44      0.40         9
+         1_N       1.00      0.50      0.67        12
+         1_S       0.64      0.93      0.76        15
+         1_W       0.33      0.07      0.11        15
+         2_E       0.90      0.93      0.92        29
+         2_N       0.90      0.95      0.92        19
+         2_S       1.00      0.72      0.84        25
+         2_W       0.74      0.74      0.74        27
+         3_E       0.67      1.00      0.80        12
+         3_N       0.60      1.00      0.75        12
+         3_S       0.69      0.92      0.79        12
+         3_W       0.26      0.78      0.39         9
+         4_E       1.00      0.60      0.75        20
+         4_N       1.00      0.94      0.97        17
+         4_S       1.00      0.60      0.75        15
+         4_W       0.90      0.75      0.82        12
+         5_E       1.00      1.00      1.00        16
+         5_N       0.91      0.62      0.74        16
+         5_S       1.00      1.00      1.00        15
+         5_W       1.00      0.92      0.96        13
+         6_E       0.91      0.83      0.87        12
+         6_N       1.00      1.00      1.00         7
+         6_S       1.00      1.00      1.00        14
+         6_W       0.79      0.92      0.85        12
+         7_E       1.00      1.00      1.00        17
+         7_N       1.00      1.00      1.00        17
+         7_S       0.85      1.00      0.92        17
+         7_W       1.00      0.81      0.90        16
+
+    accuracy                           0.82       432
+   macro avg       0.84      0.82      0.81       432
+weighted avg       0.86      0.82      0.82       432
+
+
+===== CONFUSION MATRIX =====
+[[ 4  0  0  0  2  0  0  0  1  1  0  1  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  6  0  0  0  1  0  1  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0 14  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  1  0  0  0  0  0  0  0 14  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0 27  1  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0 18  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  7  0  0  0 18  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  2  1  0  0 20  0  0  0  3  0  0  0  1  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0 12  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0 12  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  1  0  0  0  0  0  0  0 11  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  2  0  0  0  7  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 4  0  0  0  0  0  0  0  4  0  0  0 12  0  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  1  0  0  0 16  0  0  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  5  0  0  0  9  0  0  1  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  2  0  0  0  1  0  0  0  9  0  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 16  0  0  0  0  0  0  0
+   0  0  0  0]
+ [ 1  0  0  0  0  0  0  2  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  1
+   0  0  2  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 15  0  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0 12  0  0  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 10  0  0  2
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  7  0  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 14  0
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  0  0 11
+   0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+  17  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0 17  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0 17  0]
+ [ 2  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   0  0  1 13]]
+===== EXP4 END =====
+===== ALL EXPERIMENTS DONE =====

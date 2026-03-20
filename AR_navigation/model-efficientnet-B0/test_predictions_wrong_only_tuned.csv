@@ -1,0 +1,25 @@
+﻿file_path,file_name,true_class,pred_class,correct_28class,true_zone,pred_zone,zone_correct,true_direction,pred_direction,direction_correct,error_type
+/home/psy1218/projects/1_pro/new_images/test/1_S/IMG_6081.jpg,IMG_6081.jpg,1_S,2_S,False,1,2,False,S,S,True,ZONE_ONLY_WRONG
+/home/psy1218/projects/1_pro/new_images/test/1_S/KakaoTalk_20260311_190557721_28.jpg,KakaoTalk_20260311_190557721_28.jpg,1_S,1_W,False,1,1,True,S,W,False,DIRECTION_ONLY_WRONG
+/home/psy1218/projects/1_pro/new_images/test/2_E/IMG_6448.jpg,IMG_6448.jpg,2_E,3_E,False,2,3,False,E,E,True,ZONE_ONLY_WRONG
+/home/psy1218/projects/1_pro/new_images/test/2_W/IMG_4698.JPG,IMG_4698.JPG,2_W,3_W,False,2,3,False,W,W,True,ZONE_ONLY_WRONG
+/home/psy1218/projects/1_pro/new_images/test/2_W/IMG_6408.jpg,IMG_6408.jpg,2_W,1_W,False,2,1,False,W,W,True,ZONE_ONLY_WRONG
+/home/psy1218/projects/1_pro/new_images/test/3_N/IMG_6371.jpg,IMG_6371.jpg,3_N,3_E,False,3,3,True,N,E,False,DIRECTION_ONLY_WRONG
+/home/psy1218/projects/1_pro/new_images/test/3_N/IMG_6373.jpg,IMG_6373.jpg,3_N,3_W,False,3,3,True,N,W,False,DIRECTION_ONLY_WRONG
+/home/psy1218/projects/1_pro/new_images/test/3_S/IMG_3346.JPG,IMG_3346.JPG,3_S,2_S,False,3,2,False,S,S,True,ZONE_ONLY_WRONG
+/home/psy1218/projects/1_pro/new_images/test/3_S/IMG_3347.JPG,IMG_3347.JPG,3_S,2_S,False,3,2,False,S,S,True,ZONE_ONLY_WRONG
+/home/psy1218/projects/1_pro/new_images/test/3_S/IMG_3348.JPG,IMG_3348.JPG,3_S,2_S,False,3,2,False,S,S,True,ZONE_ONLY_WRONG
+/home/psy1218/projects/1_pro/new_images/test/3_S/IMG_3355.JPG,IMG_3355.JPG,3_S,2_S,False,3,2,False,S,S,True,ZONE_ONLY_WRONG
+/home/psy1218/projects/1_pro/new_images/test/3_S/IMG_3356.JPG,IMG_3356.JPG,3_S,2_S,False,3,2,False,S,S,True,ZONE_ONLY_WRONG
+/home/psy1218/projects/1_pro/new_images/test/3_S/KakaoTalk_20260311_191701650_10.jpg,KakaoTalk_20260311_191701650_10.jpg,3_S,3_W,False,3,3,True,S,W,False,DIRECTION_ONLY_WRONG
+/home/psy1218/projects/1_pro/new_images/test/3_W/IMG_5563.jpg,IMG_5563.jpg,3_W,4_W,False,3,4,False,W,W,True,ZONE_ONLY_WRONG
+/home/psy1218/projects/1_pro/new_images/test/4_N/IMG_3247.JPG,IMG_3247.JPG,4_N,3_N,False,4,3,False,N,N,True,ZONE_ONLY_WRONG
+/home/psy1218/projects/1_pro/new_images/test/4_N/IMG_3249.JPG,IMG_3249.JPG,4_N,3_N,False,4,3,False,N,N,True,ZONE_ONLY_WRONG
+/home/psy1218/projects/1_pro/new_images/test/4_N/IMG_6171.jpg,IMG_6171.jpg,4_N,3_N,False,4,3,False,N,N,True,ZONE_ONLY_WRONG
+/home/psy1218/projects/1_pro/new_images/test/4_N/IMG_6175.jpg,IMG_6175.jpg,4_N,3_N,False,4,3,False,N,N,True,ZONE_ONLY_WRONG
+/home/psy1218/projects/1_pro/new_images/test/4_S/test5.jpg,test5.jpg,4_S,3_S,False,4,3,False,S,S,True,ZONE_ONLY_WRONG
+/home/psy1218/projects/1_pro/new_images/test/5_N/N (2).jpg,N (2).jpg,5_N,7_S,False,5,7,False,N,S,False,BOTH_WRONG
+/home/psy1218/projects/1_pro/new_images/test/6_S/IMG_5694.jpg,IMG_5694.jpg,6_S,5_S,False,6,5,False,S,S,True,ZONE_ONLY_WRONG
+/home/psy1218/projects/1_pro/new_images/test/6_S/IMG_5696.jpg,IMG_5696.jpg,6_S,5_S,False,6,5,False,S,S,True,ZONE_ONLY_WRONG
+/home/psy1218/projects/1_pro/new_images/test/7_S/IMG_3622.JPG,IMG_3622.JPG,7_S,3_E,False,7,3,False,S,E,False,BOTH_WRONG
+/home/psy1218/projects/1_pro/new_images/test/7_W/IMG_3449.JPG,IMG_3449.JPG,7_W,7_S,False,7,7,True,W,S,False,DIRECTION_ONLY_WRONG

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>실내 AR 길안내 시스템</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1 class="title">AR Indoor Navigation</h1>
+
+<!-- 목적지 선택 -->
+<div class="control-panel">
+
+<label>목적지 선택</label>
+
+<select id="destinationSelect">
+<option value="">-- 목적지를 선택하세요 --</option>
+</select>
+
+<button id="showBtn">확인</button>
+
+<div id="selectedInfo"></div>
+
+<button id="startBtn">안내 시작</button>
+
+</div>
+
+<!-- 카메라 + AR -->
+<div class="camera-wrapper">
+
+<video id="video" autoplay playsinline></video>
+<canvas id="canvas"></canvas>
+
+<div id="arrow" class="arrow" style="display:none;">
+<svg viewBox="0 0 100 100" class="arrow-svg">
+
+<defs>
+<linearGradient id="grad">
+<stop offset="0%" stop-color="#a8ffd6"/>
+<stop offset="100%" stop-color="#39ffb6"/>
+</linearGradient>
+</defs>
+
+<polygon
+points="50,10 85,55 65,55 65,90 35,90 35,55 15,55"
+fill="url(#grad)"
+/>
+
+</svg>
+</div>
+
+<div class="overlay">
+<div class="status-box">
+
+<div class="status-item">
+<span>ZONE</span>
+<p id="zone">-</p>
+</div>
+
+<div class="status-item">
+<span>DIRECTION</span>
+<p id="direction">-</p>
+</div>
+
+<div class="status-item">
+<span>CONF</span>
+<p id="confidence">-</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- 안내 문구 -->
+<div class="instruction">
+
+<p id="instruction">목적지를 선택해주세요</p>
+
+</div>
+
+<div id="result"></div>
+
+</div>
+
+<script src="{{ url_for('static', filename='main.js') }}"></script>
+
+</body>
+</html>

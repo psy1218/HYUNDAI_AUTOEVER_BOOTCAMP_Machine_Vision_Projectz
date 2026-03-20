@@ -1,0 +1,11 @@
+path: /home/psy1218/projects/2_pro/YOLOv11
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: deform
+  1: hole
+  2: open
+  3: retain
+  4: tear
